@@ -1,4 +1,4 @@
-## makeCacheMatrix() returns a list of functions called by subsetting the list with function names. set() stores an input matrix, get() retrieves it, setinv() stores the inverse, getinv() retrieves the inverse
+## makeCacheMatrix returns a list of functions called by subsetting the list with function names. set() stores an input matrix, get() retrieves it, setinv() stores the inverse, getinv() retrieves the inverse
 
 ## Once a matrix is 'set', cacheSolve checks to see if getinv() has stored a return value for the inverse other than NULL. If yes, retrieve it. Otherwise, compute the inverse, store it and display the inverse.
 
